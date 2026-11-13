@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 3</title>
+    
+    <!-- CSS de Bootstrap local -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Estilos para mantener las imágenes uniformes -->
+    <style>
+        .img-nosotros {
+            height: 350px;
+            object-fit: cover;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="parte2.html">Mi Web Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="parte2.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="parte3.html">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="parte4.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. CONTENIDO PRINCIPAL: NOSOTROS -->
+    <div class="container my-5">
+        
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Sobre Nosotros</h1>
+            <p class="text-muted fs-5">Conoce a nuestro equipo y nuestra misión</p>
+        </div>
+
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="img/imagen1.jpg" class="img-fluid rounded shadow img-nosotros" alt="Nuestro Equipo">
+            </div>
+            <div class="col-md-6">
+                <h2>¿Quiénes Somos?</h2>
+                <p class="lead">Somos un equipo enfocado en el desarrollo de soluciones digitales y aprendizaje continuo.</p>
+                <p>Nuestra meta es ofrecer experiencias web modernas, responsivas y accesibles utilizando las mejores prácticas de desarrollo Frontend con Bootstrap 5.</p>
+            </div>
+        </div>
+
+        <div class="row text-center mt-5">
+            <div class="col-12 mb-4">
+                <h2>Nuestro Equipo</h2>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="img/imagen2.jpg" class="card-img-top img-nosotros" alt="Miembro 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo Web</h5>
+                        <p class="card-text text-muted">Diseño y estructuración de la interfaz responsiva con HTML5 y Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="img/imagen3.jpg" class="card-img-top img-nosotros" alt="Miembro 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Infraestructura</h5>
+                        <p class="card-text text-muted">Optimización y administración de entornos de alojamiento y rendimiento.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="img/imagen4.jpg" class="card-img-top img-nosotros" alt="Miembro 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Soporte y Seguridad</h5>
+                        <p class="card-text text-muted">Garantía de calidad, protección de datos y atención a los usuarios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 3. PIE DE PÁGINA -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 - Mi Página Web con Bootstrap 5. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JS de Bootstrap local -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <head>
+    <body>
+    <script>
+        var sueldos = [];
+        do
+        {
+            monto = parseInt(prompt('ingrese sueldo[0 para finalizar] :', ''));
+            if (monto>0)
+        {
+            sueldos.push(monto);
+        }
+        }while(monto !=0);
+        document.write('vertor de sueldos original');
+        for(var i=0;i<sueldos.length;i++)
+        {
+            document.write('<br>'+sueldos[i])
+        }
+    </script>
+    </body>
+    </html>

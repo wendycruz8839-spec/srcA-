@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If js</title>
+
+    <head>
+    <body>
+        <p id="x">Saludo</p>
+        <p id="y">Saludo2</p>
+        <script>
+            let time = Number(prompt('Indica la hora','1'))
+            if (time < 10)
+        {
+            greeting = "<b>Good Morning</b>"
+        }
+        else if (time < 20)
+        {
+            greeting = "<b>Good day</b>"
+        }
+        else 
+        {
+            greeting = "<b>Good evening</b>"
+        }
+        let parrafo = document.getElementById("x")
+        parrafo.textContent = greeting
+
+        let parrafo2 = document.getElementById("y")
+        parrafo2.innerHTML = greeting
+        </script>
+    </body>
+    </html>

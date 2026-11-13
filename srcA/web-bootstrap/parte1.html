@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parte 1</title>
+    
+    <!-- CSS de Bootstrap local -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!-- 1. La barra de navegación va primero para que aparezca arriba -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Web Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. El contenido principal va después de la barra -->
+    <div class="container mt-5">
+        <div class="p-5 mb-4 bg-light rounded-3 border">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">¡Hola, Mundo!</h1>
+                <p class="col-md-8 fs-4">Página con Bootstrap 5 .</p>
+                <button class="btn btn-primary btn-lg" type="button">¡Funciona!</button>
+            </div>
+        </div>
+    </div>
+          <!-- Sección de Tarjetas -->
+    <div class="container mb-5">
+        <div class="row">
+            <!-- Tarjeta 1 -->
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Módulo 1</h5>
+                        <p class="card-text">Aprende los fundamentos de HTML5 y cómo estructurar tus páginas web modernas.</p>
+                        <a href="#" class="btn btn-outline-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tarjeta 2 -->
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Módulo 2</h5>
+                        <p class="card-text">Diseña interfaces responsivas utilizando el sistema de rejilla (Grid) y utilidades de Bootstrap.</p>
+                        <a href="#" class="btn btn-outline-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Módulo 3</h5>
+                        <p class="card-text">Integra componentes interactivos y scripts para darle dinamismo a tus sitios web escolares.</p>
+                        <a href="#" class="btn btn-outline-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pie de página (Footer) -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 - Mi Página Web con Bootstrap 5. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- JS de Bootstrap local -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

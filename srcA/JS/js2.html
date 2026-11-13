@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data js DOM</title>
+<head>
+<body>
+    <P id="mensaje">Cargando saludo...</P>
+    <p id="age">Edad</p>
+    <script type="text/javascript">
+        let nombre = prompt('ingresa tu nombre', 'Nombre')
+        let edad = prompt('ingresa tu edad', '12')
+        let parrafo = document.getElementById('mensaje')
+        parrafo.textContent = (`Hola ${nombre}, asi que tienes ${edad} años`)
+        age.textContent = edad
+    </script>
+</body>
+</html>
